@@ -1,6 +1,7 @@
 ---
 title: "Insurance"
 date: 2019-05-18T12:33:46+10:00
+icon: images/features/saas-dev2-400x400.png
 weight: 7
 ---
 

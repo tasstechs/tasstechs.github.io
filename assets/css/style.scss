@@ -2,7 +2,7 @@
 ---
 
 // Colors
-$primary: #e5261f;
+$primary: #3c3c3c;
 $primary-dark: #a01b16;
 $secondary: #f88379;
 $black: #2f2f41;
@@ -17,8 +17,8 @@ $link-hover-color: lighten($primary, 10%);
 $link-hover-decoration: underline;
 
 // Fonts
-$font-family-base: Helvetica, Arial, sans-serif, -apple-system;
-$font-family-heading: "Playfair Display", serif, -apple-system;
+$font-family-base: "Montserrat Alternates", Arial, sans-serif, -apple-system;
+$font-family-heading: "Montserrat Alternates", sans-serif, -apple-system;
 
 // Footer
 $footer-background-color: $primary;
@@ -54,6 +54,7 @@ $sub-footer-text-color: $white;
 @import "components/strip";
 @import "components/feature";
 @import "components/social";
+@import "components/services";
 // @import "components/fonts"; // Uncomment this line to self host font
 
 // Pages

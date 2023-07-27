@@ -1,13 +1,17 @@
 baseurl: '/'
 permalink: pretty
-title: 'Jekyll Serif'
+title: 'TAAS Technologies'
+
+languages: ["en", "vn"]
+exclude_from_localizations: ["javascript", "images", "css"]
 
 logo:
   mobile: "images/logo/logo-mobile.svg"
   mobile_height: "32px"
   mobile_width: "32px"
-  desktop: "images/logo/logo.svg"
-  desktop_height: "32px"
+  desktop: "images/logo/tass-technologies.png"
+  desktop-invert: "images/logo/tass-technologies-invert.png"
+  desktop_height: "48.57px"
   desktop_width: "120px"
 
 home: 
@@ -37,6 +41,7 @@ sass:
 
 plugins:
   - jekyll-environment-variables
+  - jekyll-multiple-languages-plugin
 
 exclude:
   - Gemfile

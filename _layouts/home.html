@@ -29,6 +29,7 @@ bodyClass: "page-home"
       <div class="col-12 col-md-4 mb-1">
         <div class="service service-summary">
           <div class="service-content">
+            <img class="service-icon"  alt="{{ service.title }}" src="{{ service.icon }}">
             <h2 class="service-title">
               <a href="{{ service.url | relative_url }}">{{ service.title }}</a>
             </h2>

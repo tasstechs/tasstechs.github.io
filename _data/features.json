@@ -1,28 +1,28 @@
 [
   {
-    "title": "Free Consultation",
-    "description": "New clients receive an obligation free consultation.",
+    "title": "AWS partner",
+    "description": "",
     "image": {
-      "url": "images/features/noun_branding_1885335.svg",
-      "width": 80,
+      "url": "images/features/AWS-Logo1260-01.png",
+      "width": 150,
       "height": 80
     }
   },
   {
-    "title": "Certified Accountants",
-    "description": "All members of our team are certified accountants.",
+    "title": "Tencent Cloud",
+    "description": "",
     "image": {
-      "url": "images/features/noun_The Process_1885341.svg",
-      "width": 80,
-      "height": 80
+      "url": "images/features/Tencent-Cloud-logo-300x188.jpg",
+      "width": 150,
+      "height": 125
     }
   },
   {
-    "title": "Tax Compliance",
-    "description": "We stay up to date on the latest changes to the tax code.",
+    "title": "Alibaba Cloud",
+    "description": "",
     "image": {
-      "url": "images/features/noun_3d modeling_1885342.svg",
-      "width": 80,
+      "url": "images/features/aliyun-logo_7_4.jpg",
+      "width": 100,
       "height": 80
     }
   }
