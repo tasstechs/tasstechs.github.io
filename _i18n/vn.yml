@@ -1,3 +1,26 @@
 homepage:
-  compnay-description : Voi phuong cham phuc vu 
+  compnay-description : Không chỉ là cung cấp dịch vụ chúng tôi suy nghĩ cho sản phẩm của bạn, cùng bạn tìm kiếm những giải pháp và hành động cùng với bạn để tạo ra sản phẩm phù hợp nhất với bạn. 
   contact: Liên hệ
+about:
+  title: Giới thiệu
+main:
+  - name: "Dịch vụ"
+    url: "/services/"
+    weight: 2
+  - name: "Đội ngũ"
+    url: "/team/"
+    weight: 3
+  - name: "Giới thiệu"
+    url: "/about/"
+    weight: 4
+  - name: "Liên hệ"
+    url: "/contact/"
+    weight: 5
+
+footer:
+  - name: "Home"
+    url: "/"
+    weight: 1
+  - name: "Liên hệ"
+    url: "/contact/"
+    weight: 2

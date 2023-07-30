@@ -1,3 +1,26 @@
 homepage:
-  compnay-description : Serif contains content types for a typical business website. The theme is fully responsive, blazing fast and artfully illustrated.
+  compnay-description : We not only provide services, but also think for your product, work with you to seek solutions and actions together to create the most suitable product for you.
   contact: Contact
+about:
+  title: About
+main:
+  - name: "Services"
+    url: "/en/services/"
+    weight: 2
+  - name: "Team"
+    url: "/en/team/"
+    weight: 3
+  - name: "About"
+    url: "/en/about/"
+    weight: 4
+  - name: "Contact"
+    url: "/en/contact/"
+    weight: 5
+
+footer:
+  - name: "Home"
+    url: "/"
+    weight: 1
+  - name: "Contact"
+    url: "/contact/"
+    weight: 2

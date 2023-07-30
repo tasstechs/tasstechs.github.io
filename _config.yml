@@ -2,11 +2,11 @@ baseurl: '/'
 permalink: pretty
 title: 'TAAS Technologies'
 
-languages: ["en", "vn"]
+languages: ["vn", "en"]
 exclude_from_localizations: ["javascript", "images", "css"]
 
 logo:
-  mobile: "images/logo/logo-mobile.svg"
+  mobile: "images/logo/tass-technologies.png"
   mobile_height: "32px"
   mobile_width: "32px"
   desktop: "images/logo/tass-technologies.png"
