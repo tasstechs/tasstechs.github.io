@@ -1,7 +1,7 @@
 ---
 title: "Superannuation"
 date: 2019-03-28T15:14:54+10:00
-icon: images/features/saas-dev2-400x400.png
+icon: /images/features/saas-dev2-400x400.png
 weight: 5
 ---
 

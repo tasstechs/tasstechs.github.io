@@ -1,7 +1,7 @@
 ---
 title: "Pentest as a Service"
 date: 2019-01-28T15:15:26+10:00
-icon: images/features/saas-dev2-400x400.png
+icon: /images/features/saas-dev2-400x400.png
 weight: 2
 ---
 
