@@ -3,7 +3,7 @@ homepage:
   contact: Liên hệ
 about:
   title: Giới thiệu
-main:
+main-menu:
   - name: "Dịch vụ"
     url: "/services/"
     weight: 2
@@ -17,7 +17,7 @@ main:
     url: "/contact/"
     weight: 5
 
-footer:
+footer-menu:
   - name: "Home"
     url: "/"
     weight: 1

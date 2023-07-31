@@ -4,6 +4,10 @@ title: 'TAAS Technologies'
 
 languages: ["vn", "en"]
 exclude_from_localizations: ["javascript", "images", "css"]
+defaultLang: en
+languageNames:
+  vn: Tiếng Việt
+  en: English
 
 logo:
   mobile: "images/logo/tass-technologies.png"
