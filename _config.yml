@@ -11,12 +11,12 @@ languageNames:
 
 logo:
   mobile: "images/logo/tass-technologies.png"
-  mobile_height: "32px"
-  mobile_width: "32px"
+  # mobile_height: "32px"
+  # mobile_width: "32px"
   desktop: "images/logo/tass-technologies.png"
   desktop-invert: "images/logo/tass-technologies-invert.png"
-  desktop_height: "48.57px"
-  desktop_width: "120px"
+  # desktop_height: "48.57px"
+  # desktop_width: "120px"
 
 home: 
   limit_services: 6
