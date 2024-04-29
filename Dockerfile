@@ -11,6 +11,7 @@ COPY script /script
 COPY providers /providers
 COPY entrypoint.sh /
 
+RUN chmod +x /script/init_environment.sh
 RUN chmod +x /script/cleanup_bundler.sh
 RUN chmod +x /entrypoint.sh
 
