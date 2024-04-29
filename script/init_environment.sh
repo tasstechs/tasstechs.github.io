@@ -12,10 +12,10 @@ if [[ -n "${SSH_PRIVATE_KEY}" ]]; then
 fi
 
 # Installing ruby libraries
-pacman -S --noconfirm ruby2.7.4 ruby-bundler
+pacman -S --noconfirm ruby2.7 ruby-bundler
 
 # Setting default ruby version
-cp /usr/bin/ruby-2.7.4 /usr/bin/ruby
+cp /usr/bin/ruby-2.7 /usr/bin/ruby
 
 # debug
 ruby -v && bundle version
