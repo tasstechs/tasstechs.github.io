@@ -19,6 +19,7 @@ JEKYLL_CFG=${INPUT_JEKYLL_CFG:=./_config.yml}
 JEKYLL_BASEURL=${INPUT_JEKYLL_BASEURL:=}
 PRE_BUILD_COMMANDS=${INPUT_PRE_BUILD_COMMANDS:=}
 
+
 # Set default bundle path and cache
 BUNDLE_PATH=${WORKING_DIR}/vendor/bundle
 
