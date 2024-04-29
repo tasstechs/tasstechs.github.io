@@ -69,7 +69,7 @@ if [[ -f "${GEMFILE_LOCK_DIR}/Gemfile.lock" ]]; then
     tail -n 1 | xargs)"
   echo "Bundler version ${BUNDLER_VER} is required by your Gemfile.lock!"
 fi
-
+bundle -v
 echo "Initial comptible bundler"
 ${SCRIPT_DIR}/script/cleanup_bundler.sh
 gem install bundler -v "${BUNDLER_VER}"
