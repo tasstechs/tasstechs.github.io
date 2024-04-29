@@ -12,7 +12,8 @@ SSH_PRIVATE_KEY=${INPUT_SSH_PRIVATE_KEY:=}
 ACTOR=${INPUT_ACTOR}
 REPOSITORY=${INPUT_REPOSITORY}
 BRANCH=${INPUT_BRANCH}
-BUNDLER_VER=${INPUT_BUNDLER_VER:=>=0}
+RUBY_VER=${INPUT_RUBY_VER:=3.2.0}
+BUNDLER_VER=${INPUT_BUNDLER_VER:=~>2.5.0}
 JEKYLL_SRC=${INPUT_JEKYLL_SRC:=./}
 JEKYLL_CFG=${INPUT_JEKYLL_CFG:=./_config.yml}
 JEKYLL_BASEURL=${INPUT_JEKYLL_BASEURL:=}
@@ -69,8 +70,6 @@ if [[ -f "${GEMFILE_LOCK_DIR}/Gemfile.lock" ]]; then
     tail -n 1 | xargs)"
   echo "Bundler version ${BUNDLER_VER} is required by your Gemfile.lock!"
 fi
-
-echo ${BUNDLER_VER}
 
 echo "Initial comptible bundler"
 ${SCRIPT_DIR}/script/cleanup_bundler.sh
@@ -150,5 +149,9 @@ if [[ -n "${SSH_PRIVATE_KEY}" ]]; then
   echo "Post-handle SSH private key file"
   rm -f ${SSH_PRIVATE_KEY_PATH}
 fi
+
+# Update cache key
+echo "Update cache key..."
+source ${SCRIPT_DIR}/script/update_cache_key.sh
 
 exit ${PROVIDER_EXIT_CODE}
