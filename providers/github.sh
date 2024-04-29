@@ -25,6 +25,8 @@ fi
 
 echo "Deploying to ${REPOSITORY} on branch ${BRANCH}"
 echo "Deploying to ${REMOTE_REPO}"
+echo ${ACTOR}
+echo ${TOKEN}
 
 git config --global init.defaultBranch main && \
   git init && \
